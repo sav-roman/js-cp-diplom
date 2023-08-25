@@ -443,4 +443,11 @@ body {
   pointer-events: none
  }
 
-
+/*================================================================*/
+/*Дописанный код:*/
+@media screen and (max-width: 478px) {
+  .movie__info {
+    flex-direction: column;
+    margin-bottom: 2rem;
+  }
+}
